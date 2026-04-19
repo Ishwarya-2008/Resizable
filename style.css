@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #1a1a2e;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #888;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box {
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.box .size-info {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 6px;
+    font-weight: 400;
+}
+
+.box-1 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+}
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #48dbfb, #0abde3);
+}
+
+.box-3 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #feca57, #ff9f43);
+}
+
+.box-4 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #a29bfe, #6c5ce7);
+}
+
+.box-5 {
+    width: 420px;
+    height: 180px;
+    background: linear-gradient(135deg, #55efc4, #00b894);
+}
+
+.box-6 {
+    width: 420px;
+    height: 180px;
+    background: linear-gradient(135deg, #fd79a8, #e84393);
+}
+
+.ui-resizable-handle {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+.ui-resizable-se {
+    width: 16px;
+    height: 16px;
+    right: 4px;
+    bottom: 4px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}
