@@ -56,37 +56,37 @@ h1 {
 .box-1 {
     width: 200px;
     height: 200px;
-    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    background: linear-gradient(#ff6b6b, #ee5a24);
 }
 
 .box-2 {
     width: 200px;
     height: 200px;
-    background: linear-gradient(135deg, #48dbfb, #0abde3);
+    background: linear-gradient(#48dbfb, #0abde3);
 }
 
 .box-3 {
     width: 200px;
     height: 200px;
-    background: linear-gradient(135deg, #feca57, #ff9f43);
+    background: linear-gradient(#feca57, #ff9f43);
 }
 
 .box-4 {
     width: 200px;
     height: 200px;
-    background: linear-gradient(135deg, #a29bfe, #6c5ce7);
+    background: linear-gradient(#a29bfe, #6c5ce7);
 }
 
 .box-5 {
     width: 420px;
     height: 180px;
-    background: linear-gradient(135deg, #55efc4, #00b894);
+    background: linear-gradient(#55efc4, #00b894);
 }
 
 .box-6 {
     width: 420px;
     height: 180px;
-    background: linear-gradient(135deg, #fd79a8, #e84393);
+    background: linear-gradient(#fd79a8, #e84393);
 }
 
 .ui-resizable{
