@@ -31,6 +31,7 @@ h1 {
     gap: 30px;
     justify-content: center;
     padding: 20px;
+    height: 85vh;
 }
 
 .box {
@@ -105,26 +106,23 @@ h1 {
 .ui-resizable-handle {
     position: absolute;
     background: rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
     z-index: 10;
 }
 
 .ui-resizable-se {
-    width: 16px;
-    height: 16px;
-    right: 4px;
-    bottom: 4px;
+    width: 10px;
+    height: 10px;
+    right: 0px;
+    bottom: 0px;
     background: rgba(255, 255, 255, 0.5);
-    border-radius: 3px;
 }
 
 .ui-resizable-sw {
-    width: 16px;
-    height: 16px;
-    left: 4px;
-    bottom: 4px;
+    width: 10px;
+    height: 10px;
+    left: 0px;
+    bottom: 0px;
     background: rgba(255, 255, 255, 0.5);
-    border-radius: 3px;
 }
 
 .ui-resizable-e {
