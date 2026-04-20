@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: #1a1a2e;
     min-height: 100vh;
     padding: 30px;
@@ -53,7 +53,7 @@ h1 {
     font-weight: 400;
 }
 
-.box .resize-handle{
+.box .resize-handle {
     font-size: 12px;
     opacity: 0.8;
     margin-top: 6px;
@@ -90,15 +90,15 @@ h1 {
     background: linear-gradient(#55efc4, #00b894);
 }
 
-.ui-resizable{
+.ui-resizable {
     position: relative;
-    left:0px !important;
-    top:0px !important;
+    left: 0px !important;
+    top: 0px !important;
 }
 
 .ui-resizable-handle {
     position: absolute;
-    background: rgba(255, 255, 255, 0.3);
+    background: white;
     z-index: 10;
 }
 
@@ -107,7 +107,8 @@ h1 {
     height: 10px;
     right: 0px;
     bottom: 0px;
-    background: rgba(255, 255, 255, 0.5);
+    background: white;
+    position: absolute;
 }
 
 .ui-resizable-sw {
@@ -115,39 +116,46 @@ h1 {
     height: 10px;
     left: 0px;
     bottom: 0px;
-    background: rgba(255, 255, 255, 0.5);
+    background: white;
     cursor: sw-resize;
+    position: absolute;
 }
 
 .ui-resizable-e {
     width: 10px;
-    height: 10%;
+    height: 5%;
     right: 0;
-    top: 160px;
-    background: rgba(255, 255, 255, 0.3);
+    top: 45%;
+    background: white;
+    position: absolute;
+
 }
 
 .ui-resizable-s {
-    width: 10%;
+    width: 5%;
     height: 10px;
-    left: 135px;
+    left: 45%;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.3);
+    background: white;
+    position: absolute;
+
 }
 
 .ui-resizable-n {
-    width: 10%;
+    position: absolute;
+    width: 5%;
     height: 10px;
-    left: 135px;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.3);
+    left: 45%;
+    top: 0px;
+    background: white;
 }
 
 
 .ui-resizable-w {
     width: 10px;
-    height: 10%;
+    height: 5%;
     left: 0;
-    top: 160px;
-    background: rgba(255, 255, 255, 0.3);
+    top: 45%;
+    background: white;
+    position: absolute;
 }
