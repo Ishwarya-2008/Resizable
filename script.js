@@ -11,7 +11,7 @@ $(function(){
     });
 
     $(".box-2").resizable({
-        handles: "s",
+        handles: "s, n",
         minWidth: 100,
         minHeight: 100,
         // containment: "parent",

@@ -135,6 +135,15 @@ h1 {
     background: rgba(255, 255, 255, 0.3);
 }
 
+.ui-resizable-n {
+    width: 10%;
+    height: 10px;
+    left: 135px;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
 .ui-resizable-w {
     width: 10px;
     height: 10%;
